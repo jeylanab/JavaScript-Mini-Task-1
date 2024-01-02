@@ -1,0 +1,1 @@
+# JavaScript-Mini-Task-1
