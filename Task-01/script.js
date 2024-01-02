@@ -22,3 +22,20 @@ document.getElementById("submitbtn").onclick = function() {
   }
 
 }
+
+// function to convert temp unit 
+
+let temp ;
+
+temp = prompt ("enter temprature ");
+temp = Number(temp);
+
+let value = tocel(temp);
+console.log(value);
+
+function tocel(temp) {
+  return temp  * 9/5 + 32;
+}
+function tofah(temp){
+  return (temp - 32 ) * (5/9); 
+}
